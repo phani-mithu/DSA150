@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+void f(int i, int n){
+    if(i>n){
+        return;
+    }
+    cout << "mithu" << endl;
+    f(i+1, n);
+}
+
+int main(){
+    int i=0;
+    int n;
+    cin >> n;
+    f(i,n);
+    return 0;
+}
+
+
+
